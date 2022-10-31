@@ -1,11 +1,35 @@
 #init_header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 #game {
     text-align: center;
+}
+
+.team {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 5px;
+  border-style:solid;
+  border-color: black;
+  width: calc(100% - 10px);
+  height: 400px;
+  margin-top: 20px;
+}
+
+.country-name {
+  text-align: center;
+}
+
+.flag {
+  width: 200px;
+  height: 120px;
+  border-style: solid;
+  border-color: black;
+  border: 0,2px;
 }
 
 /* .logo {
