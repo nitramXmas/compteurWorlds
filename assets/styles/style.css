@@ -1,0 +1,14 @@
+#init_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#game {
+    text-align: center;
+}
+
+/* .logo {
+    width: 250px;
+    height: 250px;
+} */
