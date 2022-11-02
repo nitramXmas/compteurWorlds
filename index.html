@@ -11,29 +11,47 @@
 
   <header id="init_header">
     <div class="logo">
-      <img src="assets/images/logo.jpg" alt="logo_mond"/>
+      <img src="assets/images/logo.jpg" alt="logo_mond" />
     </div>
     <div id="game">
-        <h1>ID PARTIE</h1>
-        <h1>DATE</h1>
+      <h1>ID PARTIE</h1>
+      <h1>DATE</h1>
     </div>
     <div class="logo">
-        <img src="assets/images/logo.jpg" alt="logo_mond"/>
-      </div>
+      <img src="assets/images/logo.jpg" alt="logo_mond" />
+    </div>
   </header>
 
   <body>
-    <section class="team-block">
+    <fieldset class="teamParam">
+      <legend>PARAMETRAGE EQUIPES</legend>
       <div class="team" id="team1">
-        <h2 class="country-name">FRANCE</h2>
-        <img src="assets/images/france.jpg" alt="drp_eq1" class="flag">
+        <h2>FRANCE</h2>
+        <img src="assets/images/france.jpg" alt="drp_eq1" class="flag" />
       </div>
       <div class="team" id="team2">
-        <h2 class="country-name">ESPAGNE</h2>
-        <img src="assets/images/espagne.jpg" alt="drp_eq2" class="flag">
+        <h2>ESPAGNE</h2>
+        <img src="assets/images/espagne.jpg" alt="drp_eq2" class="flag" />
       </div>
+    </fieldset>
+    <section class="gameParam">
+      <fieldset class="param" id="points">
+        <legend>CONFIGURATION POINTS</legend>
+        <div>
+          <input type="radio" id="ptsMINI" name="paramPts" value="10" />
+          <label for="ptsMINI">10</label>
+        </div>
+        <div>
+          <input type="radio" id="ptsMAXI" name="paramPts" value="15" />
+          <label for="ptsMAXI">15</label>
+        </div>
+      </fieldset>
+      <div class="boutonGame">
+        <img src="assets/images/pasa.jpg" alt="logo-pasa" id="imgGoGame" />
+      </div>
+      <fieldset class="param" id="pasa">
+        <legend>PASA</legend>
+      </fieldset>
     </section>
-    <section id="points"></section>
-    <section id="pasa"></section>
   </body>
 </html>

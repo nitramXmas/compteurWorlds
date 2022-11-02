@@ -1,3 +1,7 @@
+body {
+  margin: 0px, 10px, 0px, 10px;
+}
+
 #init_header {
   display: flex;
   justify-content: space-around;
@@ -5,22 +9,29 @@
 }
 
 #game {
-    text-align: center;
+  text-align: center;
 }
 
-.team-block {
+fieldset {
+  border: 5px solid grey;
+  text-align: center;
+}
+
+legend {
+  font-weight: bold;
+  font-size: large;
+}
+
+.teamParam {
   display: flex;
   justify-content: space-evenly;
-  align-items:flex-start;
-  border: 5px;
-  border-style:solid;
-  border-color: black;
-  width: calc(100% - 10px);
+  align-items: flex-start;
   height: 400px;
   margin-top: 20px;
+  text-align: center;
 }
 
-.country-name {
+.team {
   text-align: center;
 }
 
@@ -29,5 +40,37 @@
   height: 120px;
   border-style: solid;
   border-color: black;
-  border: 0,1px;
+  border: 0, 1px;
+}
+
+.gameParam {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.param {
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  width: 40%;
+  height: 240px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+fieldset #points {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 20px;
+}
+
+#imgGoGame {
+  width: 240px;
+  height: 240px;
+  margin-top: 15px;
 }
