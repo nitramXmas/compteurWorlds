@@ -17,6 +17,18 @@ fieldset {
   text-align: center;
 }
 
+fieldset .colorEq{
+  border: 2px solid black;
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input:checked{
+  fill: red;
+}
+
 legend {
   font-weight: bold;
   font-size: large;
@@ -53,16 +65,10 @@ legend {
 .param {
   border: 5px;
   border-style: solid;
-  border-color: black;
+  border-color: grey;
   width: 40%;
   height: 240px;
   margin-right: 0px;
-  text-align: center;
-}
-
-fieldset #points {
-  display: flex;
-  flex-direction: column;
 }
 
 input {
